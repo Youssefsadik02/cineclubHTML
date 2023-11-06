@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Réservation:</title>
+</head>
+<body>
+<p>
+	 <h1> Réservation:  </h1>
+    	<form action="traitement.php" methode="Post"> 
+	    <label for="nom"> Nom:</label>
+	    <input type="texte" id="nom" name="nom" placeholder="Votre nom..."> <br>
+         <label for="prenom"> Prénom:</label>
+	    <input type="texte" id="prenom" name="prenom" placeholder="Votre prenom...">
+	    <br>
+	    <label for="age">Age: </label>
+	    <input type="number" min="0" id="age" name="age">
+	    <br>
+	    <label for="email">Email</label> 
+	    <input type="Email" name="Email" id="Email" required> 
+	    <br>
+	    <label for="Tel">Numéro de Tél:</label> 
+	    <input type="Tél" name="Tel" id="Tel" >
+	    <br>
+	    <h2> Tarifs: </h2>
+
+	    <input type="radio" id="enfant" name="enfant" value="enfant">
+	    <label for="enfant"> Enfant: 5 euros</label><br>
+	    
+	    <input type="radio" id="adulte" name="adulte" value="adulte">
+	    <label for="adulte">Adulte: 9 euros</label><br>
+	    <label for="film" id="film">Choisissez un film:</label>
+	    <select name="pays" id="pays">
+	    	<option value="fr" selected>Interstellar</option>
+	    	<option value="be">Fight club</option>
+	    	<option value="it">La goutte d’or</option>
+	    	<option value="fr" selected>Intouchable</option>
+	    	<option value="be">Django Unchained</option>
+	    	<option value="it">Le roi lion</option>
+	    	<option value="fr" selected>One piece Stampede</option>
+	    	<option value="be">Bienvenue chez les chtis</option>
+	    	<option value="it">Les tuches 1 et 2</option>
+	    	<option value="fr" selected>Spiderman No way home</option>
+	    	<option value="be">Barbie</option>
+	    	<option value="it">Oppenheimer</option>
+
+	    </select>
+	    <input type="submit" value="Envoyer" class="btn btn-primary">
+	    
+	    
+</p>
+</body>
+</html>
