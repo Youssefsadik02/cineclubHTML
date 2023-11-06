@@ -1,0 +1,21 @@
+
+.page1AP {
+	background-color: black ;
+color: white; 
+padding:20px 20px 20px 180px;
+background-position: center;
+margin-block: initial;
+
+}
+table{
+	border-collapse: collapse;
+}
+td,th{
+  border: 3px black solid;
+  text-align: center;
+  
+  color:black;
+  font-style: Arial ;
+  font-weight: bold;
+  font-family: revert;
+}
