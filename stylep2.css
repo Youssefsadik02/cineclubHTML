@@ -1,0 +1,72 @@
+ul {
+  padding: 0;
+  width: 80%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-table;
+  width: 15%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: rgb(248, 243, 243);
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link,
+a:visited,
+a:focus {
+  background: rgb(11, 11, 11);
+}
+
+a:hover {
+  background: rgb(101, 101, 100);
+}
+
+a:active {
+  background: red;
+  color: white;
+}
+nav {
+  float: none;
+  padding-left: 400px;
+}
+header {
+  border-top: 5px solid rgb(74, 72, 72);
+  border-bottom: 5px solid rgb(72, 69, 69);
+}
+  
+section {
+  float: left;
+  width: 50%;
+}
+aside {
+  float: right;
+  
+  justify-content: right;
+}
+.flex1{
+  float: right;
+  justify-content: right;
+}
+.address{
+  display: block;
+  border: solid;
+  border-color: gray;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
