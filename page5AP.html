@@ -7,50 +7,54 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="stylep5.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 	<title>Réservation:</title>
 </head>
 
-<header>
-	<div class="flex">
-		<img src="logo.png" title="logo" height="200px" width="200px">
-	</div>
-	<nav>
-
-		<ul>
-			<li><a href="Page1AP.html">Acceuil</a></li>
-			<li><a href="Page2AP.html">Présentation</a></li>
-			<li><a href="Page3AP.html">Liste des films</a></li>
-			<li><a href="Page4AP.html">La goute d'or </a></li>
-			<li><a href="Page5AP.html">Réservation </a></li>
-		</ul>
-	</nav>
-</header>
 
 <body>
-	<p>
+	<header>
+		<div class="flex">
+			<img src="logo.png" title="logo" height="200px" width="200px">
+		</div>
+		<nav>
+
+			<ul>
+				<li><a href="Page1AP.html">Accueil</a></li>
+				<li><a href="Page2AP.html">Présentation</a></li>
+				<li><a href="Page3AP.html">Liste des films</a></li>
+				<li><a href="Page4AP.html">La goutte d'or </a></li>
+				<li><a href="Page5AP.html">Réservation </a></li>
+			</ul>
+		</nav>
+	</header>
+
 	<h1> Réservation: </h1>
 	<form action="traitement.php" methode="Post">
-		<label for="nom"> Nom:</label>
-		<input type="texte" id="nom" name="nom" placeholder="Votre nom..."> <br>
-		<label for="prenom"> Prénom:</label>
-		<input type="texte" id="prenom" name="prenom" placeholder="Votre prenom...">
-		<br>
-		<label for="age">Age: </label>
-		<input type="number" min="0" id="age" name="age">
-		<br>
-		<label for="email">Email</label>
-		<input type="Email" name="Email" id="Email" required>
-		<br>
-		<label for="Tel">Numéro de Tél:</label>
-		<input type="Tél" name="Tel" id="Tel">
-		<br>
+		<div class="réservation">
+			<label for="nom"> Nom:</label>
+			<input type="texte" id="nom" name="nom" placeholder="Votre nom..."> <br>
+			<label for="prenom"> Prénom:</label>
+			<input type="texte" id="prenom" name="prenom" placeholder="Votre prenom...">
+			<br>
+			<label for="age">Age: </label>
+			<input type="number" min="0" id="age" name="age">
+			<br>
+			<label for="email">Email</label>
+			<input type="Email" name="Email" id="Email" required>
+			<br>
+			<label for="Tel">Numéro de Tél:</label>
+			<input type="Tél" name="Tel" id="Tel">
+			<br>
+		</div>
 		<h2> Tarifs: </h2>
 
-		<input type="radio" id="enfant" name="enfant" value="enfant">
-		<label for="enfant"> Enfant: 5 euros</label><br>
+		<input type="radio" id="enfant" name="tarifs" value="enfant">
+		<label for="enfant"> <strong> Enfant:</strong> 5 euros</label><br>
 
-		<input type="radio" id="adulte" name="adulte" value="adulte">
-		<label for="adulte">Adulte: 9 euros</label><br>
+		<input type="radio" id="adulte" name="tarifs" value="adulte">
+		<label for="adulte"> <strong> Adulte: </strong> 9 euros</label><br>
+
 		<label for="film" id="film">Choisissez un film:</label>
 		<select name="pays" id="pays">
 			<option value="fr" selected>Interstellar</option>
@@ -67,10 +71,29 @@
 			<option value="it">Oppenheimer</option>
 
 		</select>
-
+		<br><br>
 		<button type="button" class="btn btn-secondary">Envoyer</button>
 
-		</p>
+
+
+<section class="container5">
+
+	<h2>Contact:</h2>
+	<i class="fa-regular fa-envelope" style="color: #afb0b1;"></i> &nbsp<strong>Email :</strong> contact@pandafilmclub.com <br>
+	<br>
+	<i class="fa-solid fa-phone" style="color: #b8babc;"></i> &nbsp<strong>Téléphone :</strong> +12 345 678 910 <br>
+	<br>
+	<i class="fa-solid fa-location-dot" style="color: #ababab;"></i> &nbsp<strong>Adresse:</strong> 23, Rue des Pandas Heureux, Vallée du Cinéma, 98765 Cinéphilia<br>
+</section>
+
+
 </body>
+
+
+<footer >
+<p>&copy; 2023 Cinéma Paradise. Tous droits réservés.</p>
+
+</footer>
+
 
 </html>
