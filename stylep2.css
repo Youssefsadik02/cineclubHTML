@@ -1,3 +1,6 @@
+* {
+  font-family: sans-serif;
+}
 ul {
   padding: 0;
   width: 80%;
@@ -18,14 +21,11 @@ a {
   color: rgb(248, 243, 243);
 }
 
-li:last-child a {
-  margin-right: 0;
-}
 
 a:link,
 a:visited,
 a:focus {
-  background: rgb(11, 11, 11);
+  background: rgb(77, 76, 76);
 }
 
 a:hover {
@@ -45,15 +45,7 @@ header {
   border-bottom: 5px solid rgb(72, 69, 69);
 }
   
-section {
-  float: left;
-  width: 50%;
-}
-aside {
-  float: right;
-  
-  justify-content: right;
-}
+
 .flex1{
   float: right;
   justify-content: right;
@@ -68,5 +60,137 @@ aside {
   justify-content: center;
   
 }
+
+body {
+  background-color: black;
+  color: white;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+div.flex{
+  display: flex;
+  justify-content: center;
+}
+
+.centre{
+  width: 1200px; height: 700px;
+  display: block;
+  margin: auto;
+}
+h1{
+  
+  text-align: center;
+  
+}
+h2{
+  color:gray;
+  font-family: Futura;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: gray;
+  padding:20px;
+}
+
+.container1{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: gray;
+  padding:20px;
+  font-size: 30px;
+}
+.map{
+ 
+  display: block;
+  margin: auto;
+}
+.container2{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: gray;
+  padding:20px;
+}
+table{
+  border-collapse: collapse;
+  border-color: gray;
+  border: solid;
+}
+
+td,th{
+  border: 5px rgb(255, 255, 255) solid;
+  text-align: center;
+  border-style: inset;
+  
+  color:rgb(255, 255, 255);
+  font-style: Arial ;
+ 
+  font-family: revert;
+  padding: 10px;
+  width: 400px;
+
+}
+th{
+  background-color: grey;
+}
+.container3{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: gray;
+  padding:20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+ 
+  bottom: 0;
+  width: 100%;
+}
+section{
+  padding: 100px;
+ 
+}
+.texte{
+  margin: 0 auto;
+}
+.container4{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  
+  border: solid;
+  border-color: gray;
+  padding:20px;
+}
+.container5{
+  height: 200px;
+  
+  
+  text-align: center;
+  border: solid;
+  border-color: rgb(3, 3, 3);
+  padding:20px;
+}
+
 
 
